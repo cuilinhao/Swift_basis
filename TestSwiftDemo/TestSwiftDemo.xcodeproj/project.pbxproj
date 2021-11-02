@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		700954A627317432009D2CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700954A427317432009D2CBD /* Main.storyboard */; };
 		700954A827317432009D2CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700954A727317432009D2CBD /* Assets.xcassets */; };
 		700954AB27317432009D2CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700954A927317432009D2CBD /* LaunchScreen.storyboard */; };
+		7047A5632731755D00A37848 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7047A5622731755D00A37848 /* NetworkTools.swift */; };
+		7047A566273177E200A37848 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7047A565273177E200A37848 /* Test.swift */; };
 		C6C7566D5889F97341192232 /* Pods_TestSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776D932D81800F97088BC1D6 /* Pods_TestSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		700954A727317432009D2CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700954AA27317432009D2CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		700954AC27317432009D2CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7047A5622731755D00A37848 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		7047A565273177E200A37848 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		776D932D81800F97088BC1D6 /* Pods_TestSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C58FE72503ABDF17527B8 /* Pods-TestSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-TestSwiftDemo/Pods-TestSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				7009549E27317432009D2CBD /* AppDelegate.swift */,
 				700954A027317432009D2CBD /* SceneDelegate.swift */,
 				700954A227317432009D2CBD /* ViewController.swift */,
+				7047A5622731755D00A37848 /* NetworkTools.swift */,
+				7047A565273177E200A37848 /* Test.swift */,
 				700954A427317432009D2CBD /* Main.storyboard */,
 				700954A727317432009D2CBD /* Assets.xcassets */,
 				700954A927317432009D2CBD /* LaunchScreen.storyboard */,
@@ -80,7 +86,6 @@
 				E25C58FE72503ABDF17527B8 /* Pods-TestSwiftDemo.debug.xcconfig */,
 				50E86B0C8CB06D8ACC98D771 /* Pods-TestSwiftDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,7 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7047A5632731755D00A37848 /* NetworkTools.swift in Sources */,
 				700954A327317432009D2CBD /* ViewController.swift in Sources */,
+				7047A566273177E200A37848 /* Test.swift in Sources */,
 				7009549F27317432009D2CBD /* AppDelegate.swift in Sources */,
 				700954A127317432009D2CBD /* SceneDelegate.swift in Sources */,
 			);
