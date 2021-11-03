@@ -7,4 +7,7 @@ target "TestSwiftDemo" do
   pod "SnapKit"
   pod "R.swift"
 pod 'Alamofire'
+pod 'HandyJSON'
+pod 'SwiftyJSON'
+
 end
