@@ -187,8 +187,6 @@ extension SwiftJsonViewController {
 			case false:
 				print(response.result.error ?? "404")
 			}
-		
-			
 		}
 		
 	}

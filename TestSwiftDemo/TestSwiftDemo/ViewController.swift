@@ -73,6 +73,9 @@ extension ViewController: UITableViewDataSource {
 			
 			let vc = SwiftJsonViewController()
 			self.navigationController?.pushViewController(vc, animated: true)
+		}else {
+			let vc = HandyJSONViewController()
+			self.navigationController?.pushViewController(vc, animated: true)
 		}
 	}
 	

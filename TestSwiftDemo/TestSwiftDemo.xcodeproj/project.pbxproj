@@ -13,6 +13,7 @@
 		700954A627317432009D2CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700954A427317432009D2CBD /* Main.storyboard */; };
 		700954A827317432009D2CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700954A727317432009D2CBD /* Assets.xcassets */; };
 		700954AB27317432009D2CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700954A927317432009D2CBD /* LaunchScreen.storyboard */; };
+		7025DAF72732B559009D55FF /* HandyJSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025DAF62732B559009D55FF /* HandyJSONViewController.swift */; };
 		7047A5632731755D00A37848 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7047A5622731755D00A37848 /* NetworkTools.swift */; };
 		7047A566273177E200A37848 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7047A565273177E200A37848 /* Test.swift */; };
 		707142E3273273BC00E052EA /* SwiftJsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707142E2273273BC00E052EA /* SwiftJsonViewController.swift */; };
@@ -32,6 +33,7 @@
 		700954A727317432009D2CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700954AA27317432009D2CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		700954AC27317432009D2CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7025DAF62732B559009D55FF /* HandyJSONViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyJSONViewController.swift; sourceTree = "<group>"; };
 		7047A5622731755D00A37848 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		7047A565273177E200A37848 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		707142E2273273BC00E052EA /* SwiftJsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJsonViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				707142E2273273BC00E052EA /* SwiftJsonViewController.swift */,
+				7025DAF62732B559009D55FF /* HandyJSONViewController.swift */,
 			);
 			path = TestSwiftJson;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				70A8066427323F4D0068DE99 /* NewsModel.swift in Sources */,
 				70A806792732505F0068DE99 /* NewsTableViewCell.swift in Sources */,
 				7047A5632731755D00A37848 /* NetworkTools.swift in Sources */,
+				7025DAF72732B559009D55FF /* HandyJSONViewController.swift in Sources */,
 				70A8067E273267390068DE99 /* UIColorExtension.swift in Sources */,
 				700954A327317432009D2CBD /* ViewController.swift in Sources */,
 				707142E3273273BC00E052EA /* SwiftJsonViewController.swift in Sources */,
