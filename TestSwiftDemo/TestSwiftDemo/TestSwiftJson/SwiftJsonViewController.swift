@@ -127,7 +127,7 @@ extension SwiftJsonViewController {
 		let dataTask = URLSession.shared.dataTask(with: request) { data, response, error in
 			
 			if error != nil {
-				print(error! ?? "error")
+				print("____\(String(describing: error))")
 			}else {
 				//codeTest
 				
@@ -136,6 +136,7 @@ extension SwiftJsonViewController {
 					 print("第一个联系人的第一个电话号码:", number)
 				 }
 				 */
+				//** ***第一种写法***** */
 				if let json1 = try? JSON(data: data!) {
 					
 					if let number = json1[0]["phone"][0]["number"].string {
@@ -144,6 +145,16 @@ extension SwiftJsonViewController {
 					
 				}else {
 					print(">>>>>>>>>__fail")
+				}
+				
+				//** ***第二种写法***** */
+				do {
+					 let json =  try JSON(data: data!)
+						if let number = json[0]["phone"][0]["number"].string {
+						print("第一个联系人的第一个电话号码:", number)
+					}
+				} catch {
+					print("___error")
 				}
 				
 			}
@@ -159,9 +170,9 @@ extension SwiftJsonViewController {
 
 extension SwiftJsonViewController {
 	
-	func test2() throws {
+	func test2() {
 		
-	let url = URL(string: "")
+		let url = URL(string: "")
 		
 		Alamofire.request(url!).validate().responseJSON { response in
 			
@@ -170,18 +181,28 @@ extension SwiftJsonViewController {
 			case true:
 				
 				if let value = response.result.value {
-					
+					//问题
 					if let json = try? JSON(value) {
-						
 						if let number = json[0]["phones"][0]["number"].string {
-							
 							print("第一个联系人的第一个电话:", number)
-							
 						}
-						
 					}else {
 						print(">>>>>error")
 					}
+					
+					do {
+						
+						let json =  try JSON(value)
+						
+						if let number = json[0]["phones"][0]["number"].string {
+							print("第一个联系人的第一个电话:", number)
+						}else {
+							print("___error")
+						}
+					} catch {
+						print("----error--")
+					}
+					
 				}
 				
 			case false:

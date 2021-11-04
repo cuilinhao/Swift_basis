@@ -104,7 +104,7 @@ extension ViewController {
 				//self.newsModel.append(NewsModel(dict :dict))
 				//setvalue的时候，没有写所有属性，会闪退
 				#warning("setvalue的时候，没有写所有属性，会闪退")
-				//self.newsModel.append(NewsModel(dict: dict))
+				self.newsModel.append(NewsModel(dict: dict))
 			}
 			
 			

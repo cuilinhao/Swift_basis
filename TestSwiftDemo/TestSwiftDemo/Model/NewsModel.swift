@@ -33,8 +33,13 @@ class NewsModel: NSObject {
 		self.imgsrc = imgsrc
 	}
 	
-	override class func setValue(_ value: Any?, forUndefinedKey key: String) {
-		print("_______func___")
+	//这个报错 不能加class
+	//override class func setValue(_ value: Any?, forUndefinedKey key: String) {
+		//print("_______func___")
+	//}
+	
+	override func setValue(_ value: Any?, forUndefinedKey key: String) {
+		
 	}
 	
 	
