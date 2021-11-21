@@ -119,7 +119,7 @@ extension ViewController {
 			let mode1 = NewsModel(20, "遍历字典，将字典转成模型对象遍历字典，将字典转成模型对象", "网易新闻", "http://nimg.ws.126.net/?url=http://dingyue.ws.126.net/2020/0929/619df265p00qhe2cb0179d200u00140g008x00bw.png&thumbnail=650x2147483647&quality=80&type=jpg")
 			self.newsModel.append(mode1)
 			
-			let mode2 = NewsModel(3420, "testshfj 杀伐决断乐山大佛是多久发货款式都思考发货的看法re", "网易新闻1", "https://www.tietu8.com/uploads/allimg/c210327/161D323G220-OcR.jpg")
+			let mode2 = NewsModel(3420, "testshfj 杀伐决断乐山大佛是多久发货款式都思考发货的看法re", "网易新闻1", "http://img.duoziwang.com/2020/01/04021042912841.jpg")
 			self.newsModel.append(mode2)
 			
 			let mode3 = NewsModel(5520, "testt", "网易新闻2", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUyWpo64qvKZf4PVOKun-QAOu8DrswLFLwkQ&usqp=CAU")
@@ -131,6 +131,10 @@ extension ViewController {
 			let mode4 = NewsModel(5320, "hello", "网易新闻3", "http://cms-bucket.ws.126.net/2021/1102/336900bcp00r1x43m005mc0009c0070c.png")
 			self.newsModel.append(mode4)
 			
+			
+			self.newsModel.insert(mode1, at: 0)
+			self.newsModel.insert(mode1, at: 0)
+			self.newsModel.insert(mode1, at: 0)
 			
 			//4. 刷新表格
 			self.tableView.reloadData()
