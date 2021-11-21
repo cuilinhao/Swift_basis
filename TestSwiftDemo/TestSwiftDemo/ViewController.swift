@@ -69,12 +69,19 @@ extension ViewController: UITableViewDataSource {
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		
-		if indexPath.row == 0 {
-			
+		
+		switch indexPath.row {
+		case 0:
 			let vc = SwiftJsonViewController()
 			self.navigationController?.pushViewController(vc, animated: true)
-		}else {
+		case 1:
 			let vc = HandyJSONViewController()
+			self.navigationController?.pushViewController(vc, animated: true)
+		case 2:
+			let vc = AutoLayoutVCViewController()
+			self.navigationController?.pushViewController(vc, animated: true)
+		default:
+			let vc = SwiftJsonViewController()
 			self.navigationController?.pushViewController(vc, animated: true)
 		}
 	}
@@ -109,7 +116,7 @@ extension ViewController {
 			
 			
 			//codeTest
-			let mode1 = NewsModel(20, "遍历字典，将字典转成模型对象遍历字典，将字典转成模型对象", "网易新闻", "http://cms-bucket.ws.126.net/2021/1102/bf7c318cj00r1xpll00bqc000s600e3c.jpg")
+			let mode1 = NewsModel(20, "遍历字典，将字典转成模型对象遍历字典，将字典转成模型对象", "网易新闻", "http://nimg.ws.126.net/?url=http://dingyue.ws.126.net/2020/0929/619df265p00qhe2cb0179d200u00140g008x00bw.png&thumbnail=650x2147483647&quality=80&type=jpg")
 			self.newsModel.append(mode1)
 			
 			let mode2 = NewsModel(3420, "testshfj 杀伐决断乐山大佛是多久发货款式都思考发货的看法re", "网易新闻1", "https://www.tietu8.com/uploads/allimg/c210327/161D323G220-OcR.jpg")
