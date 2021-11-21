@@ -45,6 +45,7 @@ class NewsTableViewCell: UITableViewCell {
 	}()
 	
 	var newsModel : NewsModel? {
+		
 		didSet {
 			titleLabel.text = newsModel?.title
 			sourceLabel.text = newsModel?.source
@@ -55,8 +56,15 @@ class NewsTableViewCell: UITableViewCell {
 //			sourceLabel.backgroundColor = .systemGreen
 //			replyCountLabel.backgroundColor = .systemOrange
 			
-			let iconURL = URL(string: newsModel?.imgsrc ?? "")
-			iconImageView.kf.setImage(with: iconURL, placeholder: UIImage.init(named: "bbb"), options: nil, progressBlock: nil, completionHandler: nil)
+			
+			if sourceLabel.text == "网易新闻1" {
+				iconImageView.image = UIImage(named: "111")
+			} else {
+				let iconURL = URL(string: newsModel?.imgsrc ?? "")
+				iconImageView.kf.setImage(with: iconURL, placeholder: UIImage.init(named: "bbb"), options: nil, progressBlock: nil, completionHandler: nil)
+			}
+			
+			
 			iconImageView.contentMode = .scaleAspectFill
 			
 			
