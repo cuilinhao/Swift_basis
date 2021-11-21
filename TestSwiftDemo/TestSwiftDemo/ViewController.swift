@@ -70,10 +70,10 @@ extension ViewController: UITableViewDataSource {
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		
 		
-		let vc = AutoLayoutVCViewController()
-		self.navigationController?.pushViewController(vc, animated: true)
-		
-		return
+//		let vc = AutoLayoutVCViewController()
+//		self.navigationController?.pushViewController(vc, animated: true)
+//		
+//		return
 		
 		
 		switch indexPath.row {
@@ -87,7 +87,7 @@ extension ViewController: UITableViewDataSource {
 			let vc = AutoLayoutVCViewController()
 			self.navigationController?.pushViewController(vc, animated: true)
 		default:
-			let vc = SwiftJsonViewController()
+			let vc = AutoTestVC()
 			self.navigationController?.pushViewController(vc, animated: true)
 		}
 	}

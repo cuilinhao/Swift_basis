@@ -18,6 +18,7 @@
 		7047A566273177E200A37848 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7047A565273177E200A37848 /* Test.swift */; };
 		707142E3273273BC00E052EA /* SwiftJsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707142E2273273BC00E052EA /* SwiftJsonViewController.swift */; };
 		7093CE612749DBB600F6C404 /* AutoLayoutVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7093CE602749DBB600F6C404 /* AutoLayoutVCViewController.swift */; };
+		7093CE63274A820D00F6C404 /* AutoTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7093CE62274A820D00F6C404 /* AutoTestVC.swift */; };
 		70A8066427323F4D0068DE99 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8066327323F4D0068DE99 /* NewsModel.swift */; };
 		70A806792732505F0068DE99 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A806782732505F0068DE99 /* NewsTableViewCell.swift */; };
 		70A8067E273267390068DE99 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A8067D273267390068DE99 /* UIColorExtension.swift */; };
@@ -39,6 +40,7 @@
 		7047A565273177E200A37848 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		707142E2273273BC00E052EA /* SwiftJsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJsonViewController.swift; sourceTree = "<group>"; };
 		7093CE602749DBB600F6C404 /* AutoLayoutVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVCViewController.swift; sourceTree = "<group>"; };
+		7093CE62274A820D00F6C404 /* AutoTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTestVC.swift; sourceTree = "<group>"; };
 		70A8066327323F4D0068DE99 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		70A806782732505F0068DE99 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		70A8067D273267390068DE99 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				707142E2273273BC00E052EA /* SwiftJsonViewController.swift */,
 				7025DAF62732B559009D55FF /* HandyJSONViewController.swift */,
 				7093CE602749DBB600F6C404 /* AutoLayoutVCViewController.swift */,
+				7093CE62274A820D00F6C404 /* AutoTestVC.swift */,
 			);
 			path = TestSwiftJson;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				707142E3273273BC00E052EA /* SwiftJsonViewController.swift in Sources */,
 				7093CE612749DBB600F6C404 /* AutoLayoutVCViewController.swift in Sources */,
 				7047A566273177E200A37848 /* Test.swift in Sources */,
+				7093CE63274A820D00F6C404 /* AutoTestVC.swift in Sources */,
 				7009549F27317432009D2CBD /* AppDelegate.swift in Sources */,
 				700954A127317432009D2CBD /* SceneDelegate.swift in Sources */,
 			);

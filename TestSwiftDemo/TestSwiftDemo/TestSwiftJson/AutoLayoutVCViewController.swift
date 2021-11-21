@@ -36,7 +36,7 @@ class AutoLayoutVCViewController: UIViewController {
 	//private var _placeholderLabelConstraints: [NSLayoutConstraint] = []
 	private var lab5Constraints : [NSLayoutConstraint] = []
 	
-	private var lab5TopConstraints : NSLayoutConstraint?
+	private var lab5TopConstraints : NSLayoutConstraint!
 	
 	lazy var lab1: UILabel = {
 		
@@ -177,9 +177,11 @@ class AutoLayoutVCViewController: UIViewController {
 			
 			lab5.topAnchor.constraint(equalTo: lab4.topAnchor, constant: 0),
 			lab5.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-			lab5.widthAnchor.constraint(equalToConstant: 100),
+			 lab5.widthAnchor.constraint(equalToConstant: 100),
 			lab5.heightAnchor.constraint(equalToConstant: 90)
 		]
+		
+		
 		
 		NSLayoutConstraint.activate(lab5Constraints)
 		
